@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/elazarl/goproxy"
-	"github.com/elazarl/goproxy/ext/html"
 	"io"
 	"log"
 	. "net/http"
 	"time"
+
+	"github.com/lixiangyun/goproxy"
+	"github.com/lixiangyun/goproxy/ext/html"
 )
 
 type Count struct {
