@@ -25,4 +25,4 @@ EXPOSE 8080
 # docker build -t linimbus/goproxy_docker -f Dockerfile_goproxy .
 # docker run -d -p 8080:8080 --restart=always linimbus/goproxy_docker
 
-ENTRYPOINT ["./proxy", "addr", "8080"]
+ENTRYPOINT ["./proxy", "-addr", ":8080"]
